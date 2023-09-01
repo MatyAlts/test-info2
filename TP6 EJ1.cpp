@@ -1,9 +1,9 @@
 /******************************************************************************
 EJERCICIO 1
-Desarrollar una clase “Cadena” para el manejo de cadenas de caracteres.
-Además del constructor debe implementar como mínimo 5 métodos con
-funcionalidades referidas a la manipulación de cadenas: longitud, Concatenar,
-Copiar, Buscar coincidencias por carácter o por subcadena, etc. Demostrar el
+Desarrollar una clase ï¿½Cadenaï¿½ para el manejo de cadenas de caracteres.
+Ademï¿½s del constructor debe implementar como mï¿½nimo 5 mï¿½todos con
+funcionalidades referidas a la manipulaciï¿½n de cadenas: longitud, Concatenar,
+Copiar, Buscar coincidencias por carï¿½cter o por subcadena, etc. Demostrar el
 funcionamiento de dicha Clase Cadena en el programa principal
 ******************************************************************************/
 
@@ -50,26 +50,20 @@ int main(int argc, char *argv[]) {
 		cin >> op;
 		switch(op){
 		case 1:
-			system("cls");
 			class_a.ingresarCadena();
 			break;
 		case 2:
-			system("cls");
 			class_a.longitud();
 			break;
 		case 3:
-			system("cls");
 			class_a.concatenar();
 			break;
 		case 4:
-			system("cls");
 			class_a.sonIguales();
 			break;
 		case 5:
-			system("cls");
 			class_a.comparar();
 		}
 	} while(op!=0);
 	return 0;
 }
-
